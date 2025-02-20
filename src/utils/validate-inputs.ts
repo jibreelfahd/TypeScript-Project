@@ -1,4 +1,4 @@
-import ValidatorConfig from "../constants/validator-config.js";
+import ValidatorConfig from "../constants/validator-config";
 
 export default function validate(validators: ValidatorConfig) {
   let isValid = true;

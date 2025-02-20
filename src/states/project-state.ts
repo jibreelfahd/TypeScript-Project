@@ -1,5 +1,5 @@
-import Project from "../constants/project-model.js";
-import { ProjectStatus } from "../constants/project-status.js";
+import Project from "../constants/project-model";
+import { ProjectStatus } from "../constants/project-status";
 
 type Listeners = (items: Project[]) => void;
 export class ProjectState {

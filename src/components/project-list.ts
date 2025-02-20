@@ -1,10 +1,10 @@
-import Component from "../states/project-compnent.js";
-import { DragTarget } from "../constants/drag-and-drop-interface.js";
-import Project from "../constants/project-model.js";
-import Autobind from "../decorators/autobind.js";
-import { ProjectState } from "../states/project-state.js";
-import { ProjectStatus } from "../constants/project-status.js";
-import { ProjectItem } from "./project-item.js";
+import Component from "../states/project-compnent";
+import { DragTarget } from "../constants/drag-and-drop-interface";
+import Project from "../constants/project-model";
+import Autobind from "../decorators/autobind";
+import { ProjectState } from "../states/project-state";
+import { ProjectStatus } from "../constants/project-status";
+import { ProjectItem } from "./project-item";
 
 const projState = ProjectState.getInstance();
 

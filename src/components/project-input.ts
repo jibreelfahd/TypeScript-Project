@@ -1,8 +1,8 @@
-import Component from "../states/project-compnent.js";
-import ValidatorConfig from "../constants/validator-config.js";
-import { ProjectState } from "../states/project-state.js";
-import Autobind from "../decorators/autobind.js";
-import validate from "../utils/validate-inputs.js";
+import Component from "../states/project-compnent";
+import ValidatorConfig from "../constants/validator-config";
+import { ProjectState } from "../states/project-state";
+import Autobind from "../decorators/autobind";
+import validate from "../utils/validate-inputs";
 const projState = ProjectState.getInstance();
 
 export class ProjectInput extends Component<HTMLFormElement, HTMLDivElement> {
